@@ -1,0 +1,185 @@
+/* =======================font link start======================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* ----------------------font link end------------------------- */
+
+/* =======================common css start======================= */
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    padding: 0%;
+    margin: 0%;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* -----------------------common css end---------------------- */
+/* ========================css variable start======================= */
+:root{
+    --brand_color: #F46B5B;
+    --poppins: 'Poppins', sans-serif;
+    --black:#ffffff;
+}
+
+/* ----------------------css variable end------------------------ */
+/* ========================header part start========================= */
+header{
+    position: absolute;
+    width: 100%;
+}
+.header_row{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+}
+.header_col .header_social_icon{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.header_col .header_social_icon a i{
+    font-size: 20px;
+    color: #ffffff;
+}
+.header_contact a span i{
+    font-size: 20px;
+    color: var(--brand_color);
+    margin-right: 16px;
+}
+.header_contact{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.header_contact a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--black);
+}
+
+/* ------------------------header part end----------------------- */
+/* ========================menu part start========================= */
+#banner_part{
+    background: #212428;
+}
+.banner_heading h2{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #fff;
+    margin-top: 200px;
+}
+.banner_heading h1{
+    width: 600px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner_heading span{
+    color: #F46B5B;
+}
+.banner_heading p{
+    width: 612px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #fff;
+    margin-bottom: 80px;
+}
+.banner_img img{
+    width: 509px;
+    height: 625px;
+
+}
+.banner_img{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
+/* ------------------------menu part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 48px;
+    height: 48px;
+    border:10px solid #FFF;
+    border-radius: 50%;
+    position: relative;
+    transform:rotate(45deg);
+    box-sizing: border-box;
+  }
+  .loader::before {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    inset:-10px;
+    border-radius: 50%;
+    border:10px solid #FF3D00;
+    animation: prixClipFix 2s infinite linear;
+    box-shadow: #32325d40 0px 30px 60px -12px inset, #0000004d 0px 18px 36px -18px inset;
+  }
+@keyframes prixClipFix {
+      0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+      25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+      50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+      75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
+}
+    #lksfdg .div{
+        width: 618px;
+        padding: 20px;
+        background: #FF3D00;
+    }
+    .image{
+        background-image: url(../image/Untitled\ \(1\).png);
+   background-size: 100%;
+
+        height: 560px;
+        background-repeat: no-repeat;
+        transition: all linear 7s;
+    }
+    .image:hover{
+        background-position: bottom;
+    }
